@@ -39,7 +39,7 @@
     font-size: 2vw;
 }
 .gridNav__1:hover{
-    transition: 1.2s;
+    transition: 1.0s;
     background-color: rgb(250, 228, 102);
     color: black;
     font-size: 2.2vw;
@@ -52,13 +52,14 @@
     text-align: center;
 }
 @keyframes MiBarrio {
-    0% {display: none;}
-    20% {color:gold; transform:translate(10px)}
-    40% {color:gold; transform:translate(20px); transform: rotateY(40deg);}
-    60% {color: gold; transform:translate(35px)}
-    70% {transform:rotateX(40deg)}
-    80% {color:rgb(245, 225, 110); transform:translate(15px)}
-    100% {color: rgb(240, 213, 107); transform: translate(-10px);}
+    0% {color: rgb(250, 220, 51);}
+   15% {transform: translate(10px, 10px); color: gold;}
+   30% {transform: translate(-10px, -10px); color: gold;}
+   45% {transform: translate(10px, -10px); color: gold;}
+   60% {transform: translate(-10px, 10px); color: gold;}
+   75% {transform: scale(.5,.5);transform: translate(0px, 0px); color: gold;}
+   90% {transform: scale(1.2,1.2); color: white}
+   100% {transform: scale(.7,.7); color: rgb(253, 240, 122);}
 }
 /* Termina moldeo de header */
 /* Empieza moldeo de footer */
@@ -334,6 +335,25 @@ td, tr{
    background-color: black;
    margin-inline: 5px;
  } 
+ .principales__container:hover, .principales__container2:hover{
+    border: 2px solid white;
+    animation: prinCont;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    background-color: rgba(9, 11, 75, 0.685);
+    transition: 1s;
+    font-weight: bold;
+ }
+ @keyframes prinCont {
+     0% {transform: rotate(0deg)}
+    15% {transform: rotate(1deg);}
+    30% {transform: rotate(-1deg);}
+    45% {transform: rotate(2deg);}
+    60% {transform: rotate(-2deg)}
+    75% {transform: rotate(1deg)}
+    90% {transform: rotate(-1deg);}
+    100% {transform:rotate(0deg);}
+ }
 .principales__container img,.principales__container2 img{
    width: 180px;
    height: 180px;
