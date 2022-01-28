@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo.css">
+    <title>Mi Barrio</title>
+</head>
+<body class="gridLay">
+    <header class="gridLay__1">
+        <nav class="gridNav">
+            <h1 id="logo">Mi barrio</h1>
+            <a href="../index.html" class="gridNav__1">Inicio</a>
+            <a href="./principales.html" class="gridNav__1">Principales</a>
+            <a href="./anunciate.html" class="gridNav__1">Anúnciate</a>
+            <a href="./contacto.html" class="gridNav__1">Contacto</a>
+            <a href="./acerca.html" class="gridNav__1">Acerca</a>
+        </nav>  
+    </header>
+    <main class="gridLay__anunciate">
+        <section class="precios">
+            <h2 class="h2Anunciate">Tabla de precios</h2>
+            <table>
+                <tr>
+                    <td>Paquete</td>
+                    <td>Información del negocio</td>
+                    <td>Anuncios</td>
+                    <td>Valoraciones</td>
+                    <td>Precios*</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><img src="../imagenes/check.jpg" alt="Incluído" width="30" height="30"></td>
+                    <td><img src="../imagenes/cross.png" alt="No Incluído" width="30" height="30"></td>
+                    <td><img src="../imagenes/cross.png" alt="No Incluído" width="30" height="30"></td>
+                    <td>$200</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img src="../imagenes/check.jpg" alt="Incluído" width="30" height="30"></td>
+                    <td><img src="../imagenes/check.jpg" alt="Incluído" width="30" height="30"></td>
+                    <td><img src="../imagenes/cross.png" alt="No Incluído" width="30" height="30"></td>
+                    <td>$300</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><img src="../imagenes/check.jpg" alt="Incluído" width="30" height="30"></td>
+                    <td><img src="../imagenes/cross.png" alt="No Incluído" width="30" height="30"></td>
+                    <td><img src="../imagenes/check.jpg" alt="Incluído" width="30" height="30"></td>
+                    <td>$300</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><img src="../imagenes/check.jpg" alt="Incluído" width="30" height="30"></td>
+                    <td><img src="../imagenes/check.jpg" alt="Incluído" width="30" height="30"></td>
+                    <td><img src="../imagenes/check.jpg" alt="Incluído" width="30" height="30"></td>
+                    <td>$400</td>
+                </tr>
+            </table>
+            <p class="pPrecio"><strong>*Precio de renta mensual, incluye IVA.</strong></p>
+        </section>
+        <section class="anunciate">
+            <h2 class="h2Anunciate">Anúnciate con Nosotros</h2>
+                <p id="anunciateP">Llena el siguiente formulario y en breve nos pondremos en contacto contigo:</p><br>
+                <form class="anunciate__form">
+                    <div>
+                        <label for="nombreCte">Nombre Completo</label>
+                        <input type="text" id="nombreCte" name="nombreCte" placeholder="Nombre(s) y Apellidos">
+                    </div>
+                    <div>
+                        <label for="telefonoCte">Teléfono</label>
+                        <input type="tel" id="telefonoCte" name="telefonoCte" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" placeholder="55-00-00-00-00">
+                    </div>
+                    <div>
+                        <label for="correoCte">Correo electrónico</label>
+                        <input type="email" id="correoCte" name="correoCte">
+                    </div>
+                    <div>
+                        <p>Selecciona tu giro:</p>
+                            <input type="radio" id="Negocio" name="giro" value="Negocio">
+                            <label for="Negocio">Negocio</label><br>
+                            <input type="radio" id="Servicio" name="giro" value="Servicio">
+                            <label for="Servicio">Servicio</label><br>
+                    </div>
+                    <div>
+                        <label>Especifica tu giro</label>
+                        <input type="text" placeholder="P.E. papelería o psicología">
+                    </div>
+                    <div>
+                        <p>Selecciona el paquete de tu interés</p>
+                            <input type="radio" id="1" name="paquete" value="1">
+                            <label for="1">1</label><br>
+                            <input type="radio" id="2" name="paquete" value="2">
+                            <label for="2">2</label><br>
+                            <input type="radio" id="3" name="paquete" value="3">
+                            <label for="3">3</label><br>
+                            <input type="radio" id="4" name="paquete" value="4">
+                            <label for="4">4</label><br>
+                    </div>
+                    <div>
+                      <input type="button" value="Submit">
+                    </div>
+                </form>
+        </section>
+    </main>
+    <footer class="gridLay__3">
+        <h4>Nuestras Redes Sociales</h4>
+        <a href="https://www.facebook.com/" target="_blank" class="gridLay__3__a1">
+            <img src="../imagenes/facebook.png" alt="icono facebook" class="footerIcon">
+        </a>
+        <a href="https://web.whatsapp.com/" target="_blank" class="gridLay__3__a2">
+            <img src="../imagenes/whatsapp.png" alt="icono whatsapp" class="footerIcon">
+        </a>
+        <a href="https://www.instagram.com/?hl=es-la" target="_blank" class="gridLay__3__a3">
+            <img src="../imagenes/instagram.png" alt="icono instagram" class="footerIcon">
+        </a>
+        <a href="https://twitter.com/?lang=es" target="_blank" class="gridLay__3__a4">
+            <img src="../imagenes/twitter.png" alt="icono twitter" class="footerIcon">
+        </a>
+    </footer>
+</body>
+</html>
