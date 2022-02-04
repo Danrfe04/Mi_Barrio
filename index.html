@@ -4,145 +4,137 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="../estilo.css">
     <title>Mi Barrio</title>
 </head>
-<body class="gridLay">
-    <header class="gridLay__1">
-        <nav class="gridNav">
-            <h1 id="logo">Mi barrio</h1>
-            <a href="./index.html" class="gridNav__1">Inicio</a>
-            <a href="./paginas/principales.html" class="gridNav__1">Principales</a>
-            <a href="./paginas/anunciate.html" class="gridNav__1">Anúnciate</a>
-            <a href="./paginas/contacto.html" class="gridNav__1">Contacto</a>
-            <a href="./paginas/acerca.html" class="gridNav__1">Acerca</a>
-        </nav>  
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+            <div class="container">
+              <h1 class="navbar-brand" id="logo">Mi Barrio</h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav w-100 justify-content-end" id="navLink">
+                  <li class="nav-item"><a class="nav-link active link-warning" aria-current="page" href="../index.html">Inicio</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./paginas/principales.html">Principales</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./paginas/anunciate.html">Anúnciate</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./paginas/contacto.html">Contacto</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./paginas/acerca.html">Acerca De</a></li>           
+                </ul>
+              </div>
+            </div>
+        </nav>
     </header>
-    <main class="gridLay__index">
-        <h2 class="h2Index">Selecciona una categoría</h2>
-        <h3 class="h3IndexNeg">Negocios</h3>
-        <section class="neg">
-            <article class="gallery">
-                <img src="./imagenes/papeleria.jpg" alt="negocio:papelería" class="gallery__img">
-                    <div class="overlay">
-                    <a href="./paginas/papeleria.html" class="overlay__text" target="_blank">Papelería</a>
-                </div>  
-            </article>
-            <article class="gallery">
-                <img src="./imagenes/abarrotes.jpg" alt="negocio:abarrotes" class="gallery__img">
-                    <div class="overlay">
-                    <a href="" class="overlay__text">Abarrotes</a>
-                </div>  
-            </article>
-            <article class="gallery">
-                <img src="./imagenes/ferreteria.jpg" alt="negocio:mantenimiento del hogar" class="gallery__img">
-                    <div class="overlay">
-                    <a href="" class="overlay__text">Mantenimiento del Hogar</a>
-                </div>  
-            </article>
-            <article class="gallery">
-                <img src="./imagenes/comida.jpg" alt="negocio:alimentos preparados" class="gallery__img">
-                    <div class="overlay">
-                    <a href="" class="overlay__text">Alimentos preparados</a>
-                </div>  
-            </article>
-            <article class="gallery">
-                <img src="./imagenes/perecedero.jpg" alt="negocio: perecederos" class="gallery__img">
-                    <div class="overlay">
-                    <a href="" class="overlay__text">Perecederos</a>
-                </div>  
-            </article>
-            <article class="gallery">
-                <img src="./imagenes/muebles.jpg" alt="negocio: muebles y artículos para el hogar" class="gallery__img">
-                    <div class="overlay">
-                    <a href="" class="overlay__text">Muebles/Artículos para el Hogar</a>
-                </div>  
-            </article>
-            <article class="gallery">
-                <img src="./imagenes/materias_primas.jpg" alt="negocio: materias primas" class="gallery__img">
-                    <div class="overlay">
-                    <a href="" class="overlay__text">Materias Primas</a>
-                </div>  
-            </article>
-            <article class="gallery">
-                <img src="./imagenes/panaderia-reposteria.jpg" alt="negocio: panaderia/repostería" class="gallery__img">
-                    <div class="overlay">
-                    <a href="" class="overlay__text">Panadería/Repostería</a>
-                </div>  
-            </article>
-            <article class="gallery">
-                <img src="./imagenes/antojos.jpg" alt="negocio: postres y antojos" class="gallery__img">
-                    <div class="overlay">
-                    <a href="" class="overlay__text">Postres/Antojos</a>
-                </div>  
-            </article>
-        </section>
-        <h3 class="h3IndexServ">Servicios</h3>
-        <section class="serv">
-            <article class="gallery">
-                <img src="./imagenes/banquete.jpg" alt="servicio: banquetes/comida" class="gallery__img">
-                    <div class="overlay">
-                    <a href="" class="overlay__text">Banquetes/Comida</a>
-                </div>  
-            </article>
-            <article class="gallery">
-                <img src="./imagenes/salud.png" alt="servicio: salud" class="gallery__img">
-                    <div class="overlay">
-                    <a href="" class="overlay__text">Salud</a>
-                </div>  
-            </article>
-            <article class="gallery">
-                <img src="./imagenes/deporte.jpg" alt="servicio: deportes" class="gallery__img">
-                    <div class="overlay">
-                    <a href="" class="overlay__text">Deportes</a>
-                </div>  
-            </article>
-            <article class="gallery">
-                <img src="./imagenes/profesionales.jpg" alt="servicio: profesionales" class="gallery__img">
-                    <div class="overlay">
-                    <a href="" class="overlay__text">Profesionales</a>
-                </div>  
-            </article>
-            <article class="gallery">
-                <img src="./imagenes/tecnicos.jpg" alt="servicio: técnicos" class="gallery__img">
-                    <div class="overlay">
-                    <a href="" class="overlay__text">Técnicos</a>
-                </div>  
-            </article>
-            <article class="gallery">
-                <img src="./imagenes/rentas.jpg" alt="servicio: rentas/alquileres" class="gallery__img">
-                    <div class="overlay">
-                    <a href="" class="overlay__text">Rentas/Alquileres</a>
-                </div>  
-            </article>
-            <article class="gallery">
-                <img src="./imagenes/entretenimiento.jpg" alt="servicio: entretenimiento" class="gallery__img">
-                    <div class="overlay">
-                    <a href="" class="overlay__text">Entretenimiento</a>
-                </div>  
-            </article>
-            <article class="gallery">
-                <img src="./imagenes/otros_serv.jpg" alt="servicio: otros" class="gallery__img">
-                    <div class="overlay">
-                    <a href="" class="overlay__text">Otros</a>
-                </div>  
-            </article>
-        </section>
+    <!-- Fin de Nav -->
+    <!-- Inicio Main -->
+    <main class="mt-6 mb-3"  id="carIndex">
+        <div class="d-flex container col-12 justify-content-center">
+            <div>
+                <h2 id="h2Index" class="display-6">Escoge una categoría:</h2>
+                <h3 class="h3Index text-center">Negocios</h3>
+            </div>  
+        </div>
+      <section class="col-12 d-flex justify-content-center">
+      <div id="carouselExampleCaptions" class="carousel slide col-lg-10 col-12" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" id="carP">
+          <div class="carousel-item active">
+            <a href="#"><img src="./imagenes/abarrotes.jpg" class="d-block w-100" alt="categoría Comida"></a>
+            <div class="carousel-caption d-flex justify-content-center">
+              <p>Comida</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="#"><img src="./imagenes/ferreteria.jpg" class="d-block w-100" alt="categoría ferretería/plomería/mantenimiento"></a>
+            <div class="carousel-caption d-flex justify-content-center">
+              <p>Ferretería/Plomería/Mantenimiento</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="#"><img src="./imagenes/muebles.jpg" class="d-block w-100" alt="categoría Hogar"></a>
+            <div class="carousel-caption d-flex justify-content-center">
+              <p>Hogar</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <h3 class="h3Index text-center">Servicios</h3>
+    <section class="col-12 d-flex justify-content-center">
+        <div id="carouselExample" class="carousel slide col-lg-10 col-12" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner" id="carP">
+            <div class="carousel-item active">
+              <a href=""><img src="./imagenes/profesionales.jpg" class="d-block w-100" alt="servicios profesionales"></a>
+              <div class="carousel-caption d-flex justify-content-center">
+                <p>Profesionales</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href=""><img src="./imagenes/tecnicos.jpg" class="d-block w-100" alt="servicios técnicos"></a>
+              <div class="carousel-caption d-flex justify-content-center">
+                <p>Técnicos</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href=""><img src="./imagenes/otros_serv.jpg" class="d-block w-100" alt="otros servicios"></a>
+              <div class="carousel-caption d-flex justify-content-center">
+                <p>Otros</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>      
     </main>
-    <footer class="gridLay__3">
-        <h4>Nuestras Redes Sociales</h4>
-        <a href="https://www.facebook.com/" target="_blank" class="gridLay__3__a1">
-            <img src="./imagenes/facebook.png" alt="icono facebook" class="footerIcon">
-        </a>
-        <a href="https://web.whatsapp.com/" target="_blank" class="gridLay__3__a2">
-            <img src="./imagenes/whatsapp.png" alt="icono whatsapp" class="footerIcon">
-        </a>
-        <a href="https://www.instagram.com/?hl=es-la" target="_blank" class="gridLay__3__a3">
-            <img src="./imagenes/instagram.png" alt="icono instagram" class="footerIcon">
-        </a>
-        <a href="https://twitter.com/?lang=es" target="_blank" class="gridLay__3__a4">
-            <img src="./imagenes/twitter.png" alt="icono twitter" class="footerIcon">
-        </a>
+    <!-- Inicio footer -->
+    <footer class="container-fluid bg-primary text-white text-center">
+      <div class="row">
+        <div class="col">
+          <h4 id="h4Footer">Nuestras Redes Sociales</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <a href="https://www.facebook.com/" target="_blank"><img src="./imagenes/facebook.png" alt="icono facebook"></a>
+        </div>
+        <div class="col-3">
+          <a href="https://www.instagram.com/?hl=es-la" target="_blank"><img src="./imagenes/instagram.png" alt="icono instagram"></a>
+        </div>
+        <div class="col-3">
+          <a href="https://twitter.com/?lang=es" target="_blank"><img src="./imagenes/twitter.png" alt="icono twitter"></a>
+        </div>
+        <div class="col-3">
+          <a href="https://web.whatsapp.com/" target="_blank"><img src="./imagenes/whatsapp.png" alt="icono whatsapp"></a>
+        </div>
+      </div>
     </footer>
+    <script src="../bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -4,120 +4,156 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap.min.css">
     <link rel="stylesheet" href="../estilo.css">
     <title>Mi Barrio</title>
 </head>
-<body class="gridLay">
-    <header class="gridLay__1">
-        <nav class="gridNav">
-            <h1 id="logo">Mi barrio</h1>
-            <a href="../index.html" class="gridNav__1">Inicio</a>
-            <a href="./principales.html" class="gridNav__1">Principales</a>
-            <a href="./anunciate.html" class="gridNav__1">Anúnciate</a>
-            <a href="./contacto.html" class="gridNav__1">Contacto</a>
-            <a href="./acerca.html" class="gridNav__1">Acerca</a>
-        </nav>  
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+            <div class="container">
+              <h1 class="navbar-brand" id="logo">Mi Barrio</h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav w-100 justify-content-end" id="navLink">
+                  <li class="nav-item"><a class="nav-link active link-warning" aria-current="page" href="../index.html">Inicio</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./principales.html">Principales</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./anunciate.html">Anúnciate</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./acerca.html">Acerca De</a></li>           
+                </ul>
+              </div>
+            </div>
+        </nav>
     </header>
-    <main class="gridLay__anunciate">
-        <section class="precios">
-            <h2 class="h2Anunciate">Tabla de precios</h2>
-            <table>
-                <tr>
-                    <td>Paquete</td>
-                    <td>Información del negocio</td>
-                    <td>Anuncios</td>
-                    <td>Valoraciones</td>
-                    <td>Precios*</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td><img src="../imagenes/check.jpg" alt="Incluído" width="30" height="30"></td>
-                    <td><img src="../imagenes/cross.png" alt="No Incluído" width="30" height="30"></td>
-                    <td><img src="../imagenes/cross.png" alt="No Incluído" width="30" height="30"></td>
-                    <td>$200</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td><img src="../imagenes/check.jpg" alt="Incluído" width="30" height="30"></td>
-                    <td><img src="../imagenes/check.jpg" alt="Incluído" width="30" height="30"></td>
-                    <td><img src="../imagenes/cross.png" alt="No Incluído" width="30" height="30"></td>
-                    <td>$300</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td><img src="../imagenes/check.jpg" alt="Incluído" width="30" height="30"></td>
-                    <td><img src="../imagenes/cross.png" alt="No Incluído" width="30" height="30"></td>
-                    <td><img src="../imagenes/check.jpg" alt="Incluído" width="30" height="30"></td>
-                    <td>$300</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td><img src="../imagenes/check.jpg" alt="Incluído" width="30" height="30"></td>
-                    <td><img src="../imagenes/check.jpg" alt="Incluído" width="30" height="30"></td>
-                    <td><img src="../imagenes/check.jpg" alt="Incluído" width="30" height="30"></td>
-                    <td>$400</td>
-                </tr>
-            </table>
-            <p class="pPrecio"><strong>*Precio de renta mensual, incluye IVA.</strong></p>
-        </section>
-        <section class="anunciate">
-            <h2 class="h2Anunciate">Anúnciate con Nosotros</h2>
-                <p id="anunciateP">Llena el siguiente formulario y en breve nos pondremos en contacto contigo:</p><br>
-                <form class="anunciate__form">
+    <!-- Fin de Nav -->
+    <!-- Inicio Main -->
+    <main class="container-fluid mt-6 mb-3">
+        <div class="row">
+            <section class="col-lg-6 col-12">
+             <div>
+               <h2 class="h2Anunciate">Tabla de Precios</h2>
+             </div>
+             <table class="table table-light text-center">
+                <thead>
+                    <tr>
+                      <th scope="col">Paquete</th>
+                      <th scope="col">Info. de negocio</th>
+                      <th scope="col">Anuncios</th>
+                      <th scope="col">Valoraciones</th>
+                      <th scope="col">Precios</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Incluído</td>
+                      <td>No Incluído</td>
+                      <td>No Incluído</td>
+                      <td>$100</td>                    
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Incluído</td>
+                      <td>Incluído</td>
+                      <td>No Incluído</td>
+                      <td>$150</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Incluído</td>
+                        <td>No Incluído</td>
+                        <td>Incluído</td>
+                        <td>$150</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Incluído</td>
+                        <td>Incluído</td>
+                        <td>Incluído</td>
+                        <td>$200</td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+                </section>
+                <section class="col-lg-6 col-12" id="announce">
                     <div>
-                        <label for="nombreCte">Nombre Completo</label>
-                        <input type="text" id="nombreCte" name="nombreCte" placeholder="Nombre(s) y Apellidos">
+                        <h2 class="h2Anunciate">Anúnciate con nosotros</h2>
                     </div>
                     <div>
-                        <label for="telefonoCte">Teléfono</label>
-                        <input type="tel" id="telefonoCte" name="telefonoCte" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" placeholder="55-00-00-00-00">
+                        <p>Llena el siguiente formulario y en breve nos pondremos en contacto contigo:</p>
                     </div>
                     <div>
-                        <label for="correoCte">Correo electrónico</label>
-                        <input type="email" id="correoCte" name="correoCte">
+                        <form id="anunciate__form">
+                            <div>
+                                <label for="nombreCte" class="form-label">Nombre Completo</label>
+                                <input class="form-control" type="text" id="nombreCte" name="nombreCte" placeholder="Nombre(s) y Apellidos">
+                            </div>
+                            <div>
+                                <label for="telefonoCte" class="form-label">Teléfono</label>
+                                <input class="form-control" type="tel" id="telefonoCte" name="telefonoCte" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" placeholder="55-00-00-00-00">
+                            </div>
+                            <div>
+                                <label for="correoCte" class="form-label">Correo electrónico</label>
+                                <input class="form-control" type="email" id="correoCte" name="correoCte" placeholder="example@domain.com">
+                            </div>
+                            <div class="mt-2">
+                                <p>Selecciona tu giro:</p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" id="Negocio" name="giro" value="Negocio">
+                                        <label  lass="form-check-label" for="Negocio">Negocio</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" id="Servicio" name="giro" value="Servicio">
+                                        <label class="form-check-label" for="Servicio">Servicio</label>
+                                    </div>        
+                            </div>
+                            <div>
+                                <label for="giro" class="form-label">Especifica tu giro</label>
+                                <input class="form-control" type="text" placeholder="P.E. papelería o psicología" id="giro" name="giro">
+                            </div>
+                            <div class="mt-2">
+                                <p>Selecciona el paquete de tu interés:</p>
+                                    <input class="form-check-input" type="radio" id="1" name="paquete" value="1">
+                                    <label class="form-check-label" for="1">1</label><br>
+                                    <input class="form-check-input" type="radio" id="2" name="paquete" value="2">
+                                    <label class="form-check-label" for="2">2</label><br>
+                                    <input class="form-check-input" type="radio" id="3" name="paquete" value="3">
+                                    <label class="form-check-label"for="3">3</label><br>
+                                    <input class="form-check-input" type="radio" id="4" name="paquete" value="4">
+                                    <label class="form-check-label" for="4">4</label><br>
+                            </div>
+                              <input class="btn btn-sm btn-light" type="button" value="Submit">
+                        </form>
                     </div>
-                    <div>
-                        <p>Selecciona tu giro:</p>
-                            <input type="radio" id="Negocio" name="giro" value="Negocio">
-                            <label for="Negocio">Negocio</label><br>
-                            <input type="radio" id="Servicio" name="giro" value="Servicio">
-                            <label for="Servicio">Servicio</label><br>
-                    </div>
-                    <div>
-                        <label>Especifica tu giro</label>
-                        <input type="text" placeholder="P.E. papelería o psicología">
-                    </div>
-                    <div>
-                        <p>Selecciona el paquete de tu interés</p>
-                            <input type="radio" id="1" name="paquete" value="1">
-                            <label for="1">1</label><br>
-                            <input type="radio" id="2" name="paquete" value="2">
-                            <label for="2">2</label><br>
-                            <input type="radio" id="3" name="paquete" value="3">
-                            <label for="3">3</label><br>
-                            <input type="radio" id="4" name="paquete" value="4">
-                            <label for="4">4</label><br>
-                    </div>
-                    <div>
-                      <input type="button" value="Submit">
-                    </div>
-                </form>
-        </section>
+                </section>
+          </div>
     </main>
-    <footer class="gridLay__3">
-        <h4>Nuestras Redes Sociales</h4>
-        <a href="https://www.facebook.com/" target="_blank" class="gridLay__3__a1">
-            <img src="../imagenes/facebook.png" alt="icono facebook" class="footerIcon">
-        </a>
-        <a href="https://web.whatsapp.com/" target="_blank" class="gridLay__3__a2">
-            <img src="../imagenes/whatsapp.png" alt="icono whatsapp" class="footerIcon">
-        </a>
-        <a href="https://www.instagram.com/?hl=es-la" target="_blank" class="gridLay__3__a3">
-            <img src="../imagenes/instagram.png" alt="icono instagram" class="footerIcon">
-        </a>
-        <a href="https://twitter.com/?lang=es" target="_blank" class="gridLay__3__a4">
-            <img src="../imagenes/twitter.png" alt="icono twitter" class="footerIcon">
-        </a>
+    <!-- Inicio footer -->
+    <footer class="container-fluid bg-primary text-white text-center">
+      <div class="row">
+        <div class="col">
+          <h4 id="h4Footer">Nuestras Redes Sociales</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <a href="https://www.facebook.com/" target="_blank"><img src="../imagenes/facebook.png" alt="icono facebook"></a>
+        </div>
+        <div class="col-3">
+          <a href="https://www.instagram.com/?hl=es-la" target="_blank"><img src="../imagenes/instagram.png" alt="icono instagram"></a>
+        </div>
+        <div class="col-3">
+          <a href="https://twitter.com/?lang=es" target="_blank"><img src="../imagenes/twitter.png" alt="icono twitter"></a>
+        </div>
+        <div class="col-3">
+          <a href="https://web.whatsapp.com/" target="_blank"><img src="../imagenes/whatsapp.png" alt="icono whatsapp"></a>
+        </div>
+      </div>
     </footer>
+    <script src="../bootstrap.bundle.min.js"></script>
 </body>
 </html>
