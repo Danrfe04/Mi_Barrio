@@ -1,0 +1,71 @@
+.gridLay__principales{
+    display: grid;
+    grid-column: 1/3;
+    grid-template-columns: 1fr;
+    grid-row:  1fr 4fr 1fr 4fr;
+}
+.h2Destacados{
+    grid-row: 1/2;
+    text-align: center;
+    color: rgb(231, 228, 228);
+    font-size: nth($size, 1 );
+}
+.destacados, .losmas{
+    display: flex;
+    flex-flow:row nowrap;
+    overflow-x: scroll;
+ }
+.destacados{
+    grid-row: 2/3;
+ }
+.h2Queridos{
+    grid-row: 3/4;
+    text-align: center;
+    color: rgb(231, 228, 228);
+    font-size: nth($size, 1 );
+ }
+.losmas{
+     grid-row: 4/5;
+ }
+.principales__container, .principales__container2{
+   display: flex;
+   align-items: center;
+   background-color: black;
+   margin-inline: 5px;
+ } 
+ .principales__container:hover, .principales__container2:hover{
+    border: 2px solid white;
+    animation: prinCont;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    background-color: rgba(9, 11, 75, 0.685);
+    transition: 1s;
+    font-weight: bold;
+ }
+ @keyframes prinCont {
+     0% {transform: rotate(0deg)}
+    15% {transform: rotate(1deg);}
+    30% {transform: rotate(-1deg);}
+    45% {transform: rotate(2deg);}
+    60% {transform: rotate(-2deg)}
+    75% {transform: rotate(1deg)}
+    90% {transform: rotate(-1deg);}
+    100% {transform:rotate(0deg);}
+ }
+.principales__container img,.principales__container2 img{
+   width: 180px;
+   height: 180px;
+   border-radius: 10px;
+   object-fit: cover;
+   margin-left: 5px;
+ }
+.principales__info, .principales__info2{
+ padding: 10px;
+ font-size: nth($size, 3 );
+ margin-right: 30px;
+ color: $mainCol;
+ text-align: justify;
+ }
+.principales__ul,.principales__ul2{
+    list-style-type: none;
+ }
