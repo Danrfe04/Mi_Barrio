@@ -1,0 +1,51 @@
+/* maps: map-get(variable,name); */
+$color: (
+    principal: rgb(248, 214, 24),
+    secundario: white,
+    bkImg: rgb(24, 24, 24),
+    thumb: #ecf38b,
+    thumbhov: #fdd909,
+    contact: rgb(239, 243, 207),
+    faq: rgb(253, 230, 230) 
+);
+$size: (
+    one: 2rem,
+    two: 1.5rem,
+    three: .8rem
+);
+/* Extends: @extend %variable;*/
+%titles {
+    text-align: center;
+    font-weight: 800;
+}
+%main{
+    margin-top: 60px;
+}
+%indCont{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: scroll;
+    background-color: black;
+}
+/* Mixins: @mixin name ($variable1, $variable2) {
+    declaracion: variable1;
+    declaracion2: variable2;
+    declaracion3: xxxx;
+  } 
+  @include name (valueVar1, valueVar2) */
+@mixin container ($back){
+    background-color: $back;
+    display: flex;
+    align-items: center;
+    margin-inline: 5px;
+}
+@mixin contHov ($backg){
+    background-color: $backg;
+    border: 2px solid white;
+    animation: prinCont;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    transition: 1s;
+    font-weight: bold; 
+}
