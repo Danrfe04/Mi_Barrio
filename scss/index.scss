@@ -194,4 +194,172 @@ h2, h3, h4{
         height: 80px;
         width: 180px; } 
 }
+h1{
+    font-size: 1.5vh;
+    margin-left: 4vw;
+}
+.up{
+    animation-name: up;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+    position: fixed;
+    opacity: 0;
+}
+.logo{
+    animation-name: logo;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+}
+.below{
+    animation-name: below;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+    position: fixed;
+    opacity: 0;
+}
+
+
+@keyframes up {
+    1% {transform: translateY(4vh); color: gold; opacity: 1;}
+    2% {transform: translateY(-2vh); color: gold;}
+    3% {transform: translateY(4vh); color: gold;}
+    4% {transform: translateY(-2vh); color: gold;}
+    5% {transform: translateY(4vh); color: gold;}
+    6% {transform: translateY(-2vh); color: white;}
+    7% {transform: translateY(4vh); color: white;}
+    8% {transform: translateY(-2vh); color: white;}
+    9% {transform: translateY(4vh); color: white;}
+    10% {transform: translateY(-2vh); color: white;}
+    11% {transform: translateY(4vh); color: rgb(250, 139, 139);}
+    12% {transform: translateY(-2vh); color: rgb(250, 139, 139);}
+    13% {transform: translateY(4vh); color: rgb(250, 139, 139);}
+    14% {transform: translateY(-2vh); color: rgb(250, 139, 139);}
+    15% {transform: translateY(4vh); color: rgb(250, 139, 139);}
+    16% {transform: translateY(-2vh); color: rgb(125, 125, 243);}
+    17% {transform: translateY(4vh); color: rgb(125, 125, 243);}
+    18% {transform: translateY(-2vh); color: rgb(125, 125, 243);}
+    19% {transform: translateY(4vh); color: rgb(125, 125, 243);}
+    20% {transform: translateY(-2vh); color: rgb(125, 125, 243);}
+    21% {transform: translateY(4vh); color: rgb(147, 245, 147);}
+    22% {transform: translateY(-2vh); color: rgb(147, 245, 147);}
+    23% {transform: translateY(4vh); color: rgb(147, 245, 147);}
+    24% {transform: translateY(-2vh); color: rgb(147, 245, 147);}
+    25% {transform: translateY(4vh); color: rgb(147, 245, 147);}
+    26% {transform: translateY(-2vh); color: white;}
+    27% {transform: translateY(4vh); color: white;}
+    28% {transform: translateY(-2vh); color: white;}
+    29% {transform: translateY(4vh); color: white;}
+    30% {transform: translateY(-2vh); color: white;}
+    31% {transform: translateY(4vh); color: white;}
+    32% {transform: translateY(-2vh); color: white;}
+    33% {transform: translateY(4vh); color: white;}
+    34% {transform: translateY(-2vh); color: white;}
+    35% {transform: translateY(4vh); color: white;}
+    36% {transform: translateY(-2vh); color: white;}
+    37% {transform: translateY(4vh); color: white;}
+    38% {transform: translateY(-2vh); color: white;}
+    39% {transform: translateY(4vh); color: white;}
+    40% {transform: translateY(-2vh); color: white;}
+    41% {transform: translateY(4vh); color: white;}
+    42% {transform: translateY(-2vh); color: white;}
+    43% {transform: translateY(4vh); color: white;}
+    44% {transform: translateY(-2vh); color: white;}
+    45% {transform: translateY(4vh); color: white;}
+    46% {transform: translateY(-2vh); color: white;}
+    47% {transform: translateY(4vh); color: white;}
+    48% {transform: translateY(-2vh); color: white;}
+    48.2% {opacity: 0;}
+    48.3%{transform: translateX(14vw); opacity: 0;}
+    100%{transform: translateX(14vw); opacity: 0;}
+}
+@keyframes below {
+    1% {transform: translateY(-2vh); color: rgb(147, 245, 147); opacity: 1;}
+    2% {transform: translateY(4vh); color: rgb(147, 245, 147);}
+    3% {transform: translateY(-2vh); color: rgb(147, 245, 147);}
+    4% {transform: translateY(4vh); color: rgb(147, 245, 147);}
+    5% {transform: translateY(-2vh); color: rgb(147, 245, 147);}
+    6% {transform: translateY(4vh); color: gold;}
+    7% {transform: translateY(-2vh); color: gold;}
+    8% {transform: translateY(4vh); color: gold;}
+    9% {transform: translateY(-2vh); color: gold;}
+    10% {transform: translateY(4vh); color: gold;}
+    11% {transform: translateY(-2vh); color: rgb(125, 125, 243);}
+    12% {transform: translateY(4vh); color: rgb(125, 125, 243);}
+    13% {transform: translateY(-2vh); color: rgb(125, 125, 243);}
+    14% {transform: translateY(4vh); color: rgb(125, 125, 243);}
+    15% {transform: translateY(-2vh); color: rgb(125, 125, 243);}
+    16% {transform: translateY(4vh); color: white;}
+    17% {transform: translateY(-2vh); color: white;}
+    18% {transform: translateY(4vh); color: white;}
+    19% {transform: translateY(-2vh); color: white;}
+    20% {transform: translateY(4vh); color: white;}
+    21% {transform: translateY(-2vh); color: rgb(250, 139, 139);}
+    22% {transform: translateY(4vh); color: rgb(250, 139, 139);}
+    23% {transform: translateY(-2vh); color: rgb(250, 139, 139);}
+    24% {transform: translateY(4vh); color: rgb(250, 139, 139);}
+    25% {transform: translateY(-2vh); color: rgb(250, 139, 139);}
+    26% {transform: translateY(4vh); color: white;}
+    27% {transform: translateY(-2vh); color: white;}
+    28% {transform: translateY(4vh); color: white;}
+    29% {transform: translateY(-2vh); color: white;}
+    30% {transform: translateY(4vh); color: white;}
+    31% {transform: translateY(-2vh); color: white;}
+    32% {transform: translateY(4vh); color: white;}
+    33% {transform: translateY(-2vh); color: white;}
+    34% {transform: translateY(4vh); color: white;}
+    35% {transform: translateY(-2vh); color: white;}
+    36% {transform: translateY(4vh); color: white;}
+    37% {transform: translateY(-2vh); color: white;}
+    38% {transform: translateY(4vh); color: white;}
+    39% {transform: translateY(-2vh); color: white;}
+    40% {transform: translateY(4vh); color: white;}
+    41% {transform: translateY(-2vh); color: white;}
+    42% {transform: translateY(4vh); color: white;}
+    43% {transform: translateY(-2vh); color: white;}
+    44% {transform: translateY(4vh); color: white;}
+    45% {transform: translateY(-2vh); color: white;}
+    46% {transform: translateY(4vh); color: white;}
+    47% {transform: translateY(-2vh); color: white;}
+    48% {transform: translateY(4vh); color: white;}
+    48.2% {opacity: 0;}
+    48.3%{transform: translateX(14vw); opacity: 0;}
+    100%{transform: translateX(14vw); opacity: 0;}
+}
+@keyframes logo {
+    1% {transform: translateY(-1.5vh); color: rgb(125, 125, 243);}
+    2% {transform: translateY(2.5vh); color: rgb(125, 125, 243);}
+    3% {transform: translateY(-1.5vh); color: rgb(125, 125, 243);}
+    4% {transform: translateY(2.5vh); color: rgb(125, 125, 243);}
+    5% {transform: translateY(-1.5vh); color: rgb(125, 125, 243);}
+    6% {transform: translateY(2.5vh); color: rgb(147, 245, 147);}
+    7% {transform: translateY(-1.5vh); color: rgb(147, 245, 147);}
+    8% {transform: translateY(2.5vh); color: rgb(147, 245, 147);}
+    9% {transform: translateY(-1.5vh); color: rgb(147, 245, 147);}
+    10% {transform: translateY(2.5vh); color: rgb(147, 245, 147);}
+    11% {transform: translateY(-1.5vh); color: gold;}
+    12% {transform: translateY(2.5vh); color: gold;}
+    13% {transform: translateY(-1.5vh); color: gold;}
+    14% {transform: translateY(2.5vh); color: gold;}
+    15% {transform: translateY(-1.5vh); color: gold;}
+    16% {transform: translateY(2.5vh); color: rgb(250, 139, 139);}
+    17% {transform: translateY(-1.5vh); color: rgb(250, 139, 139);}
+    18% {transform: translateY(2.5vh); color: rgb(250, 139, 139);}
+    19% {transform: translateY(-1.5vh); color: rgb(250, 139, 139);}
+    20% {transform: translateY(2.5vh); color: rgb(250, 139, 139);}
+    21% {transform: translateY(-1.5vh); color: white;}
+    22% {transform: translateY(2.5vh); color: white;}
+    23% {transform: translateY(-1.5vh); color: white;}
+    24% {transform: translateY(2.5vh); color: white;}
+    25% {transform: translateY(-1.5vh); color: white;}
+    26% {transform: translateY(2.5vh); color: rgb(201, 138, 201);}
+    27% {transform: translateY(-1vh); color: rgb(201, 138, 201);}
+    28% {transform: translateY(2vh); color: rgb(201, 138, 201);}
+    29% {transform: translateY(-1vh); color: rgb(201, 138, 201);}
+    30% {transform: translateY(2vh); color: rgb(201, 138, 201);}
+    50%{transform: scale(1.4); transform: scaleX(2vw); color: aqua;}
+    55%{transform: scale(1.2); transform: scaleX(2vw);color: rgb(252, 195, 195);}
+    60%{transform: scale(1.1); transform: scaleX(2vw);color: rgb(188, 253, 253);}
+    65%{transform: scale(1); transform: scaleX(2vw);color: white;}
+    100%{transform: scale(1); transform: scaleX(2vw)}
+}
     

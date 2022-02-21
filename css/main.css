@@ -5,7 +5,7 @@ h2, h3, h4 {
   font-weight: 800; }
 
 main {
-  margin-top: 60px; }
+  margin-top: 80px; }
 
 .neg, .serv, .destacados, .losmas {
   width: 100%;
@@ -197,6 +197,450 @@ a {
   iframe {
     height: 80px;
     width: 180px; } }
+
+h1 {
+  font-size: 1.5vh;
+  margin-left: 4vw; }
+
+.up {
+  animation-name: up;
+  animation-duration: 10s;
+  animation-iteration-count: 2;
+  position: fixed;
+  opacity: 0; }
+
+.logo {
+  animation-name: logo;
+  animation-duration: 10s;
+  animation-iteration-count: 2; }
+
+.below {
+  animation-name: below;
+  animation-duration: 10s;
+  animation-iteration-count: 2;
+  position: fixed;
+  opacity: 0; }
+
+@keyframes up {
+  1% {
+    transform: translateY(4vh);
+    color: gold;
+    opacity: 1; }
+  2% {
+    transform: translateY(-2vh);
+    color: gold; }
+  3% {
+    transform: translateY(4vh);
+    color: gold; }
+  4% {
+    transform: translateY(-2vh);
+    color: gold; }
+  5% {
+    transform: translateY(4vh);
+    color: gold; }
+  6% {
+    transform: translateY(-2vh);
+    color: white; }
+  7% {
+    transform: translateY(4vh);
+    color: white; }
+  8% {
+    transform: translateY(-2vh);
+    color: white; }
+  9% {
+    transform: translateY(4vh);
+    color: white; }
+  10% {
+    transform: translateY(-2vh);
+    color: white; }
+  11% {
+    transform: translateY(4vh);
+    color: #fa8b8b; }
+  12% {
+    transform: translateY(-2vh);
+    color: #fa8b8b; }
+  13% {
+    transform: translateY(4vh);
+    color: #fa8b8b; }
+  14% {
+    transform: translateY(-2vh);
+    color: #fa8b8b; }
+  15% {
+    transform: translateY(4vh);
+    color: #fa8b8b; }
+  16% {
+    transform: translateY(-2vh);
+    color: #7d7df3; }
+  17% {
+    transform: translateY(4vh);
+    color: #7d7df3; }
+  18% {
+    transform: translateY(-2vh);
+    color: #7d7df3; }
+  19% {
+    transform: translateY(4vh);
+    color: #7d7df3; }
+  20% {
+    transform: translateY(-2vh);
+    color: #7d7df3; }
+  21% {
+    transform: translateY(4vh);
+    color: #93f593; }
+  22% {
+    transform: translateY(-2vh);
+    color: #93f593; }
+  23% {
+    transform: translateY(4vh);
+    color: #93f593; }
+  24% {
+    transform: translateY(-2vh);
+    color: #93f593; }
+  25% {
+    transform: translateY(4vh);
+    color: #93f593; }
+  26% {
+    transform: translateY(-2vh);
+    color: white; }
+  27% {
+    transform: translateY(4vh);
+    color: white; }
+  28% {
+    transform: translateY(-2vh);
+    color: white; }
+  29% {
+    transform: translateY(4vh);
+    color: white; }
+  30% {
+    transform: translateY(-2vh);
+    color: white; }
+  31% {
+    transform: translateY(4vh);
+    color: white; }
+  32% {
+    transform: translateY(-2vh);
+    color: white; }
+  33% {
+    transform: translateY(4vh);
+    color: white; }
+  34% {
+    transform: translateY(-2vh);
+    color: white; }
+  35% {
+    transform: translateY(4vh);
+    color: white; }
+  36% {
+    transform: translateY(-2vh);
+    color: white; }
+  37% {
+    transform: translateY(4vh);
+    color: white; }
+  38% {
+    transform: translateY(-2vh);
+    color: white; }
+  39% {
+    transform: translateY(4vh);
+    color: white; }
+  40% {
+    transform: translateY(-2vh);
+    color: white; }
+  41% {
+    transform: translateY(4vh);
+    color: white; }
+  42% {
+    transform: translateY(-2vh);
+    color: white; }
+  43% {
+    transform: translateY(4vh);
+    color: white; }
+  44% {
+    transform: translateY(-2vh);
+    color: white; }
+  45% {
+    transform: translateY(4vh);
+    color: white; }
+  46% {
+    transform: translateY(-2vh);
+    color: white; }
+  47% {
+    transform: translateY(4vh);
+    color: white; }
+  48% {
+    transform: translateY(-2vh);
+    color: white; }
+  48.2% {
+    opacity: 0; }
+  48.3% {
+    transform: translateX(14vw);
+    opacity: 0; }
+  100% {
+    transform: translateX(14vw);
+    opacity: 0; } }
+
+@keyframes below {
+  1% {
+    transform: translateY(-2vh);
+    color: #93f593;
+    opacity: 1; }
+  2% {
+    transform: translateY(4vh);
+    color: #93f593; }
+  3% {
+    transform: translateY(-2vh);
+    color: #93f593; }
+  4% {
+    transform: translateY(4vh);
+    color: #93f593; }
+  5% {
+    transform: translateY(-2vh);
+    color: #93f593; }
+  6% {
+    transform: translateY(4vh);
+    color: gold; }
+  7% {
+    transform: translateY(-2vh);
+    color: gold; }
+  8% {
+    transform: translateY(4vh);
+    color: gold; }
+  9% {
+    transform: translateY(-2vh);
+    color: gold; }
+  10% {
+    transform: translateY(4vh);
+    color: gold; }
+  11% {
+    transform: translateY(-2vh);
+    color: #7d7df3; }
+  12% {
+    transform: translateY(4vh);
+    color: #7d7df3; }
+  13% {
+    transform: translateY(-2vh);
+    color: #7d7df3; }
+  14% {
+    transform: translateY(4vh);
+    color: #7d7df3; }
+  15% {
+    transform: translateY(-2vh);
+    color: #7d7df3; }
+  16% {
+    transform: translateY(4vh);
+    color: white; }
+  17% {
+    transform: translateY(-2vh);
+    color: white; }
+  18% {
+    transform: translateY(4vh);
+    color: white; }
+  19% {
+    transform: translateY(-2vh);
+    color: white; }
+  20% {
+    transform: translateY(4vh);
+    color: white; }
+  21% {
+    transform: translateY(-2vh);
+    color: #fa8b8b; }
+  22% {
+    transform: translateY(4vh);
+    color: #fa8b8b; }
+  23% {
+    transform: translateY(-2vh);
+    color: #fa8b8b; }
+  24% {
+    transform: translateY(4vh);
+    color: #fa8b8b; }
+  25% {
+    transform: translateY(-2vh);
+    color: #fa8b8b; }
+  26% {
+    transform: translateY(4vh);
+    color: white; }
+  27% {
+    transform: translateY(-2vh);
+    color: white; }
+  28% {
+    transform: translateY(4vh);
+    color: white; }
+  29% {
+    transform: translateY(-2vh);
+    color: white; }
+  30% {
+    transform: translateY(4vh);
+    color: white; }
+  31% {
+    transform: translateY(-2vh);
+    color: white; }
+  32% {
+    transform: translateY(4vh);
+    color: white; }
+  33% {
+    transform: translateY(-2vh);
+    color: white; }
+  34% {
+    transform: translateY(4vh);
+    color: white; }
+  35% {
+    transform: translateY(-2vh);
+    color: white; }
+  36% {
+    transform: translateY(4vh);
+    color: white; }
+  37% {
+    transform: translateY(-2vh);
+    color: white; }
+  38% {
+    transform: translateY(4vh);
+    color: white; }
+  39% {
+    transform: translateY(-2vh);
+    color: white; }
+  40% {
+    transform: translateY(4vh);
+    color: white; }
+  41% {
+    transform: translateY(-2vh);
+    color: white; }
+  42% {
+    transform: translateY(4vh);
+    color: white; }
+  43% {
+    transform: translateY(-2vh);
+    color: white; }
+  44% {
+    transform: translateY(4vh);
+    color: white; }
+  45% {
+    transform: translateY(-2vh);
+    color: white; }
+  46% {
+    transform: translateY(4vh);
+    color: white; }
+  47% {
+    transform: translateY(-2vh);
+    color: white; }
+  48% {
+    transform: translateY(4vh);
+    color: white; }
+  48.2% {
+    opacity: 0; }
+  48.3% {
+    transform: translateX(14vw);
+    opacity: 0; }
+  100% {
+    transform: translateX(14vw);
+    opacity: 0; } }
+
+@keyframes logo {
+  1% {
+    transform: translateY(-1.5vh);
+    color: #7d7df3; }
+  2% {
+    transform: translateY(2.5vh);
+    color: #7d7df3; }
+  3% {
+    transform: translateY(-1.5vh);
+    color: #7d7df3; }
+  4% {
+    transform: translateY(2.5vh);
+    color: #7d7df3; }
+  5% {
+    transform: translateY(-1.5vh);
+    color: #7d7df3; }
+  6% {
+    transform: translateY(2.5vh);
+    color: #93f593; }
+  7% {
+    transform: translateY(-1.5vh);
+    color: #93f593; }
+  8% {
+    transform: translateY(2.5vh);
+    color: #93f593; }
+  9% {
+    transform: translateY(-1.5vh);
+    color: #93f593; }
+  10% {
+    transform: translateY(2.5vh);
+    color: #93f593; }
+  11% {
+    transform: translateY(-1.5vh);
+    color: gold; }
+  12% {
+    transform: translateY(2.5vh);
+    color: gold; }
+  13% {
+    transform: translateY(-1.5vh);
+    color: gold; }
+  14% {
+    transform: translateY(2.5vh);
+    color: gold; }
+  15% {
+    transform: translateY(-1.5vh);
+    color: gold; }
+  16% {
+    transform: translateY(2.5vh);
+    color: #fa8b8b; }
+  17% {
+    transform: translateY(-1.5vh);
+    color: #fa8b8b; }
+  18% {
+    transform: translateY(2.5vh);
+    color: #fa8b8b; }
+  19% {
+    transform: translateY(-1.5vh);
+    color: #fa8b8b; }
+  20% {
+    transform: translateY(2.5vh);
+    color: #fa8b8b; }
+  21% {
+    transform: translateY(-1.5vh);
+    color: white; }
+  22% {
+    transform: translateY(2.5vh);
+    color: white; }
+  23% {
+    transform: translateY(-1.5vh);
+    color: white; }
+  24% {
+    transform: translateY(2.5vh);
+    color: white; }
+  25% {
+    transform: translateY(-1.5vh);
+    color: white; }
+  26% {
+    transform: translateY(2.5vh);
+    color: #c98ac9; }
+  27% {
+    transform: translateY(-1vh);
+    color: #c98ac9; }
+  28% {
+    transform: translateY(2vh);
+    color: #c98ac9; }
+  29% {
+    transform: translateY(-1vh);
+    color: #c98ac9; }
+  30% {
+    transform: translateY(2vh);
+    color: #c98ac9; }
+  50% {
+    transform: scale(1.4);
+    transform: scaleX(2vw);
+    color: aqua; }
+  55% {
+    transform: scale(1.2);
+    transform: scaleX(2vw);
+    color: #fcc3c3; }
+  60% {
+    transform: scale(1.1);
+    transform: scaleX(2vw);
+    color: #bcfdfd; }
+  65% {
+    transform: scale(1);
+    transform: scaleX(2vw);
+    color: white; }
+  100% {
+    transform: scale(1);
+    transform: scaleX(2vw); } }
 
 #contact {
   background-color: #eff3cf; }
