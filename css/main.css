@@ -82,7 +82,6 @@ a {
 
 .overlay__text {
   color: white;
-  font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -91,6 +90,9 @@ a {
   text-align: center;
   text-decoration: none;
   padding: 50px; }
+
+.overlay h3 {
+  font-size: 1rem; }
 
 .serv {
   grid-row: 5/6;
@@ -152,15 +154,6 @@ a {
   transition: 1.5s; }
 
 @media screen and (max-width: 700px) {
-  .gridNav__1 {
-    font-size: 12px; }
-  .gridNav__1:hover {
-    font-size: 17px; }
-  #logo {
-    font-size: 15px;
-    text-align: center; }
-  .gridLay__3 h4 {
-    font-size: 13px; }
   .footerIcon {
     height: 40px; }
   .contact__faq, .contact__form {
@@ -180,11 +173,11 @@ a {
   .h3IndexServ {
     font-size: 1rem; }
   .gallery {
-    width: 130px;
-    height: 80px; }
+    width: 150px;
+    height: 200px; }
   .gallery__img {
-    width: 130px;
-    height: 80px;
+    width: 150px;
+    height: 200px;
     object-fit: cover; }
   .overlay__text {
     font-size: .9rem;
@@ -199,7 +192,7 @@ a {
     width: 180px; } }
 
 h1 {
-  font-size: 1.5vh;
+  font-size: 1.5rem;
   margin-left: 4vw; }
 
 .up {
@@ -369,9 +362,9 @@ h1 {
   48% {
     transform: translateY(-2vh);
     color: white; }
-  48.2% {
+  49% {
     opacity: 0; }
-  48.3% {
+  50% {
     transform: translateX(14vw);
     opacity: 0; }
   100% {
@@ -524,9 +517,9 @@ h1 {
   48% {
     transform: translateY(4vh);
     color: white; }
-  48.2% {
+  49% {
     opacity: 0; }
-  48.3% {
+  50% {
     transform: translateX(14vw);
     opacity: 0; }
   100% {

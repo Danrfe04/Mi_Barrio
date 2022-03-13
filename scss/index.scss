@@ -71,7 +71,6 @@ h2, h3, h4{
   
 .overlay__text {
     color: white;
-    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -80,6 +79,9 @@ h2, h3, h4{
     text-align: center;
     text-decoration: none;
     padding: 50px; 
+}
+.overlay h3{
+    font-size: 1rem;
 } 
 .serv {
     @extend %indCont;
@@ -148,15 +150,6 @@ h2, h3, h4{
     transition: 1.5s; 
 }
 @media screen and (max-width: 700px) {
-    .gridNav__1 {
-        font-size: 12px; }
-    .gridNav__1:hover {
-      font-size: 17px; }
-    #logo {
-        font-size: 15px;
-      text-align: center; }
-    .gridLay__3 h4 {
-      font-size: 13px; }
     .footerIcon {
       height: 40px; }
     .contact__faq, .contact__form {
@@ -176,11 +169,11 @@ h2, h3, h4{
     .h3IndexServ {
       font-size: 1rem; }
     .gallery {
-      width: 130px;
-      height: 80px; }
+      width: 150px;
+      height: 200px; }
     .gallery__img {
-      width: 130px;
-      height: 80px;
+      width: 150px;
+      height: 200px;
       object-fit: cover; }
     .overlay__text {
       font-size: .9rem;
@@ -195,7 +188,7 @@ h2, h3, h4{
         width: 180px; } 
 }
 h1{
-    font-size: 1.5vh;
+    font-size: 1.5rem;
     margin-left: 4vw;
 }
 .up{
@@ -270,8 +263,8 @@ h1{
     46% {transform: translateY(-2vh); color: white;}
     47% {transform: translateY(4vh); color: white;}
     48% {transform: translateY(-2vh); color: white;}
-    48.2% {opacity: 0;}
-    48.3%{transform: translateX(14vw); opacity: 0;}
+    49% {opacity: 0;}
+    50%{transform: translateX(14vw); opacity: 0;}
     100%{transform: translateX(14vw); opacity: 0;}
 }
 @keyframes below {
@@ -323,8 +316,8 @@ h1{
     46% {transform: translateY(4vh); color: white;}
     47% {transform: translateY(-2vh); color: white;}
     48% {transform: translateY(4vh); color: white;}
-    48.2% {opacity: 0;}
-    48.3%{transform: translateX(14vw); opacity: 0;}
+    49% {opacity: 0;}
+    50%{transform: translateX(14vw); opacity: 0;}
     100%{transform: translateX(14vw); opacity: 0;}
 }
 @keyframes logo {
